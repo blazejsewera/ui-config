@@ -20,3 +20,9 @@ Then, you have to reference those configs from the ui project root.
 You will find example files in `.ref` directory.
 
 Remember to clone your repositories with `--recursive` flag when using `ui-config`.
+
+If you forget to run with `--recursive`, you can always init submodules recursively with:
+
+```sh
+git submodule update --init --recursive
+```
